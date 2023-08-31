@@ -1,0 +1,39 @@
+.logo {
+  color: #2e2f42;
+}
+.logo .accent {
+  color: #4d5ae5;
+}
+.nav-link {
+  color: #2e2f42;
+}
+.nav-link:active {
+  color: #404bbf;
+}
+.nav-link-mail {
+  color: #434455;
+}
+.nav-link-mail:active {
+  color: #4d5ae5;
+}
+.nav-link-tel {
+  color: #434455;
+}
+.hero-section {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  border: none;
+  padding: 16px 32px;
+  border-radius: 4px;
+}
+.hero-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
