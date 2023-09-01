@@ -53,11 +53,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.nav-link:hover {
-  color: var(--color-press-state);
-  text-decoration: underline;
-}
-.nav-link:active {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--color-press-state);
   text-decoration: underline;
 }
@@ -68,11 +65,8 @@ address {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.contacts:hover {
-  color: var(--color-press-state);
-  text-decoration: underline;
-}
-.contacts:active {
+.contacts:hover,
+.contacts:focus {
   color: var(--color-press-state);
   text-decoration: underline;
 }
@@ -100,11 +94,8 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.hero-button:hover {
-  color: var(--color-text-light);
-  background-color: var(--color-press-state);
-}
-.hero-button:active {
+.hero-button:hover,
+.hero-button:focus {
   color: var(--color-text-light);
   background-color: var(--color-press-state);
 }
@@ -167,13 +158,13 @@ address {
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-title-backgraund);
 }
 .portfolio-text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* END portfolio section*/
