@@ -103,7 +103,7 @@ ul {
   background-color: var(--color-press-state);
 }
 .hero-button:active {
-  color: var(--color-text-light);
+  color: var(--color-press-state);
   background-color: var(--color-press-state);
 }
 
@@ -133,6 +133,8 @@ ul {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  color: var(--color-title-backgraund);
 }
 .ourteam-title {
   font-size: 20px;
@@ -140,7 +142,6 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-title-backgraund);
-  text-align: center;
 }
 .ourteam-text {
   font-size: 16px;
@@ -156,9 +157,10 @@ ul {
 .portfolio {
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: var(--color-title-backgraund);
 }
 .portfolio-title {
   font-size: 20px;
