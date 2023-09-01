@@ -32,8 +32,8 @@ ul {
 
 /*header*/
 .logo {
-  color: var(--color-text-primary);
-  font-family: Raleway;
+  color: var(--color-brand);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -41,7 +41,7 @@ ul {
   text-transform: uppercase;
 }
 .logo .accent {
-  color: var(--color-brand);
+  color: var(--color-title-backgraund);
 }
 .nav-link {
   color: var(--color-title-backgraund);
@@ -49,6 +49,10 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.nav-link:hover {
+  color: var(--color-press-state);
+  text-decoration: underline;
 }
 .nav-link:active {
   color: var(--color-press-state);
@@ -60,8 +64,12 @@ ul {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
+  font-style: normal;
 }
-
+.contacts:hover {
+  color: var(--color-press-state);
+  text-decoration: underline;
+}
 .contacts:active {
   color: var(--color-press-state);
   text-decoration: underline;
@@ -76,6 +84,7 @@ ul {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-button {
   color: var(--color-text-light);
@@ -93,6 +102,10 @@ ul {
   color: var(--color-text-light);
   background-color: var(--color-press-state);
 }
+.hero-button:active {
+  color: var(--color-text-light);
+  background-color: var(--color-press-state);
+}
 
 /*advantages section*/
 .advantage-title {
@@ -104,13 +117,16 @@ ul {
 }
 .advantage-text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-text-primary);
 }
 /*END advantages section*/
 
 /*our team section*/
+.team-list {
+  background-color: var(--color-text-light);
+}
 .ourteam {
   font-size: 36px;
   font-weight: 700;
@@ -123,11 +139,12 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--color-title-backgraund);
+  text-align: center;
 }
 .ourteam-text {
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /*END our team section*/
@@ -141,12 +158,12 @@ ul {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-title-backgraund);
 }
@@ -165,11 +182,11 @@ ul {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .logo-footer {
-  color: var(--color-backgraund-light);
-  font-family: Raleway;
+  color: var(--color-brand);
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -177,5 +194,5 @@ ul {
   text-transform: uppercase;
 }
 .logo-footer .accent {
-  color: var(--color-brand);
+  color: var(--color-backgraund-light);
 }
