@@ -59,14 +59,14 @@ address {
   text-decoration: underline;
 }
 
-.contacts {
+.contacts-link {
   color: var(--color-text-primary);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.32px;
 }
-.contacts:hover,
-.contacts:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--color-press-state);
   text-decoration: underline;
 }
@@ -88,7 +88,6 @@ address {
   cursor: pointer;
   border: none;
   padding: 16px 32px;
-  border-radius: 4px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
